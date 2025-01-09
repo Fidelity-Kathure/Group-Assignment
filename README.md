@@ -1,34 +1,34 @@
+<h1>Student Java Grading System</h1>
+<p>>This is a simple Java-based grading system designed to manage student information, grades, and grade history. The system uses data structures such as linked lists and binary trees for efficient storage and retrieval of student grade information.</p>
 
-Here’s a simplified version of the README file for your project:
-
-Student Java Grading System
-This is a simple Java-based grading system that manages student information, grades, and their grade history.
-
-Classes
-Node: Represents a node in a linked list to store student data.
-Student: Stores information about students, such as their name and grades.
-GradeHistory: Maintains a history of grades for each student.
+<h2>Classes</h2>
+<ul>
+Node: Represents a node in a linked list that stores student data.
+Student: Stores individual student information, such as name and grades.
+GradeHistory: Maintains the history of grades for each student.
 GradeStudentBTS: Handles a binary tree structure for sorting and searching student grades.
-Main: The entry point of the program, where the system runs.
-FileHandler: Reads and writes data to/from files.
+Main: The entry point of the program where the system runs.
+FileHandler: Manages reading from and writing to files.
+</ul>
 How to Use
-Clone the repository or download the project.
+Clone the repository or download the project files to your local machine.
 Compile and run the Main class.
-Follow the prompts in the terminal to manage students and grades.
+Follow the prompts in the terminal to manage students and their grades.
 Installation
-Clone the repository:
-
+Clone the Repository
 bash
 Copy code
 git clone https://github.com/Fidelity-Kathure/Group-Assignment.git
-Navigate to the project directory:
-
+Navigate to the Project Directory
 bash
 Copy code
 cd Group-Assignment
-Compile and run the project:
-
+Compile the Project
 bash
 Copy code
 javac *.java
+Run the Program
+bash
+Copy code
 java Main
+
