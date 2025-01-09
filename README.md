@@ -30,8 +30,8 @@
     <h3>Clone the Repository</h3>
     <pre><code>git clone https://github.com/Fidelity-Kathure/Group-Assignment.git</code></pre>
     
-    <h3>Navigate to the Project Directory</h3>
-    <pre><code>cd Group-Assignment</code></pre>
+    Navigate to the Project Directory
+    <pre><code>cd Group-Assignment</code>
 
     <h3>Compile the Project</h3>
     <pre><code>javac *.java</code></pre>
