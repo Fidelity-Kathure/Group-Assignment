@@ -31,12 +31,12 @@
     <pre><code>git clone https://github.com/Fidelity-Kathure/Group-Assignment.git</code></pre>
     
     Navigate to the Project Directory
-    <code>cd Group-Assignment</code>
+    cd Group-Assignment
 
-    <Compile the Project
-    <code>javac *.java</code><
+    Compile the Project
+    javac *.java
 
     Run the Program
-    <code>java Main</code>
+    java Main
 </section>
 
