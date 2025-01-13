@@ -17,11 +17,11 @@ public class Student {
         this.weights = new HashMap<>();
         this.gradeHistory = new ArrayList<>();
         
-        // Add the initial grade as 'exam1' with a default weight of 1.0
+        
         addGrade("exam1", grade, 1.0);
     }
 
-    // Add grade for a specific category (e.g., exam1, assignment1)
+   
     public void addGrade(String category, double grade, double weight) {
         grades.put(category, grade);
         weights.put(category, weight);
