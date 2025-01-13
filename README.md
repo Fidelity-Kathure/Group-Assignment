@@ -1,7 +1,7 @@
 
 <header>
     <h1>Student Java Grading System</h1>
-    <p>This is a simple Java-based grading system designed to manage student information, grades, and grade history. The system uses data structures such as linked lists and binary trees for efficient storage and retrieval of student grade information.</p>
+    <p>This is a simple Java-based grading system designed to manage student information, grades, and grade history. The system uses data structure binary trees for efficient storage and retrieval of student grade information.</p>
 </header>
 
 <section>
