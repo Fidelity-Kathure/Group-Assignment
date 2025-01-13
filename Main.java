@@ -80,7 +80,7 @@ public class Main {
     private static void removeStudent(Scanner scanner, StudentGradeBST tree) {
         System.out.print("Enter student name to remove: ");
         String name = scanner.nextLine();
-        tree.removeStudent(name);  // Ensure this method is implemented in the BST class
+        tree.removeStudent(name); 
         System.out.println("Student record removed.");
     }
 
