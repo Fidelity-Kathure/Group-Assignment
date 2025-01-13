@@ -24,7 +24,7 @@ public class StudentGradeBST {
             node.setRight(insertOrUpdateRecursive(node.getRight(), student));
         } else {
             // Update grade if student already exists
-            node.getStudent().addGrade("defaultCategory", student.getGrades().get("defaultCategory"), 1); // Add or update the default category
+            node.getStudent().addGrade("defaultCategory", student.getGrades().get("defaultCategory"), 1); 
         }
         return node;
     }
@@ -66,7 +66,7 @@ public class StudentGradeBST {
             } else if (node.getLeft() == null) {
                 return node.getRight(); // One child (right)
             } else {
-                // Two children: get the in-order successor (smallest in the right subtree)
+               
                 node.setStudent(getMin(node.getRight()).getStudent());
                 node.setRight(removeRecursive(node.getRight(), node.getStudent().getName()));
             }
